@@ -3,7 +3,7 @@ output "sdn_name" {
 }
 
 output "sdn_arn" {
-  value = digitalocean_vpc.sdn.arn
+  value = digitalocean_vpc.sdn.urn
 }
 
 output "sdn_cidr_block_ipv4" {
