@@ -1,3 +1,4 @@
+variable "do_token" {}
 variable "sdn_name"{
     decription = "Name of the SDN Network"
     type = string
